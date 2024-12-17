@@ -17,3 +17,21 @@ dictionary = {
         "Good morning": "Oṣu bere",
         "Good afternoon": "Oṣu le"
     },
+"Igbo": {
+        "Hello": "Kedu",
+        "Goodbye": "Kagbuo",
+        "Thank you": "Imeela",
+        "How are you?": "Kedu ka i mere?",
+        "I'm fine, thank you": "A di mma, imeela",
+        "What's your name?": "Kedu aha gi?",
+        "My name is": "Aha m bu",
+        "Bye":"Kagbuo",
+        "I love you": "A hụrụ gị n'anya",
+        "Yes": "Ee",
+        "No": "Mba",
+        "Maybe": "Ihe dị mma",
+        "Excuse me": "Kedu",
+        "Sorry": "Tori",
+        "Good morning": "Ututu ọma",
+        "Good afternoon": "Ehihie ọma"
+    },
