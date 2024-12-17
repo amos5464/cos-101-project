@@ -1,0 +1,19 @@
+# Multilingual Dictionary
+dictionary = {
+    "Yoruba": {
+        "Hello": "Bawo ni",
+        "Goodbye": "O dabo",
+        "Thank you": "E se",
+        "How are you?": "Bawo ni?",
+        "I'm fine, thank you": "Mo wa dupe",
+        "What's your name?": "Kini oruko re?",
+        "My name is": "Oruko mi ni",
+        "I love you": "Mo fe o",
+        "Yes": "Bẹẹni",
+        "No": "Rara",
+        "Maybe": "A ṣe",
+        "Excuse me": "E ṣe",
+        "Sorry": "E ma binu",
+        "Good morning": "Oṣu bere",
+        "Good afternoon": "Oṣu le"
+    },
