@@ -1,3 +1,21 @@
+from tkinter import *
+
+root = Tk()
+root.geometry('600x600')
+root.title("Multilingual Dictionary")
+
+entry_text = Entry(root, width=40, font=("Arial", 14))
+entry_text.pack(pady=10)
+
+languages = ["Yoruba", "Igbo", "Hausa", "French", "Spanish"]
+selected_language = StringVar(root)
+selected_language.set(languages[0])  # Default language
+
+language_menu = OptionMenu(root, selected_language, *languages)
+language_menu.pack(pady=10)
+
+result_label = Label(root, text="", wraplength=500, font=("Arial", 12), fg="blue")
+result_label.pack(pady=10)
 # Multilingual Dictionary
 dictionary = {
     "Yoruba": {
