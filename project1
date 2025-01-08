@@ -74,3 +74,19 @@ dictionary = {
         "How much is this?": "Nawa ne?",
         "I don't understand": "Ban fahimci ba"
     },
+def search():
+    word = entry_text.get().strip()  # Get the word and strip extra spaces
+    language = selected_language.get()  # Get the selected language
+    translations = dictionary.get(language, {})  # Get translations for the language
+
+    if word in translations:
+        result_label.config(text=f"{word} in {language}: {translations[word]}")
+    else:
+        result_label.config(text=f"'{word}' not found in {language} dictionary.")
+
+
+search_btn = Button(root, text="Search", command=search, bg="blue", fg="white", font=("Arial", 12))
+search_btn.pack(pady=20)
+
+root.mainloop()
+
