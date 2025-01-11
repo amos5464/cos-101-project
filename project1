@@ -73,7 +73,24 @@ dictionary = {
         "Good evening": "Maraba",
         "How much is this?": "Nawa ne?",
         "I don't understand": "Ban fahimci ba"
-    },
+ },
+    "French": {
+        "Hello": "Bonjour",
+        "Goodbye": "Au revoir",
+        "Thank you": "Merci",
+        "How are you?": "Comment ça va?",
+        "I'm fine, thank you": "Je vais bien, merci",
+        "What's your name?": "Comment vous appelez-vous?",
+        "My name is": "Je m'appelle",
+        "I love you": "Je t'aime",
+        "Yes": "Oui",
+        "No": "Non",
+        "Maybe": "Peut-être",
+        "Excuse me": "Excusez-moi",
+        "Sorry": "Désolé",
+        "Good morning": "Bonjour",
+        "Good afternoon": "Bon après-midi",
+},
 def search():
     word = entry_text.get().strip()  # Get the word and strip extra spaces
     language = selected_language.get()  # Get the selected language
